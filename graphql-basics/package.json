@@ -1,0 +1,24 @@
+{
+  "name": "graphql-basics",
+  "version": "0.0.1",
+  "description": "Learining Graphql",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js --exec babel-node",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jason Sprouse",
+  "license": "ISC",
+  "dependencies": {
+    "faker": "^4.1.0",
+    "graphql": "^0.13.2",
+    "graphql-yoga": "^1.16.9"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "nodemon": "^1.18.9"
+  }
+}
